@@ -1,0 +1,12 @@
+﻿<Window x:Class="WPF.Angle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <WindowsFormsHost Initialized="WindowsFormsHost_Initialized" Margin="0,0,140.209,0.183">
+        </WindowsFormsHost>
+        <Slider Orientation="Vertical" Value="1" Minimum="0" Maximum="1" Name="Red" Margin="385,0,-385.791,0.183" ValueChanged="Slider_ValueChanged"/>
+        <Slider Orientation="Vertical" Value="0" Minimum="0" Maximum="1" Name="Green" Margin="429,0,-428.791,0.183" ValueChanged="Slider_ValueChanged"/>
+        <Slider Orientation="Vertical" Value="0" Minimum="0" Maximum="1" Name="Blue" Margin="476,0,-475.791,0.183" ValueChanged="Slider_ValueChanged"/>
+    </Grid>
+</Window>
