@@ -42,7 +42,7 @@ namespace WPF.Angle
 
         private void WindowsFormsHost_Initialized(object sender, EventArgs e)
         {
-            var flags = GraphicsContextFlags.Debug;
+            var flags = GraphicsContextFlags.Default;
 #if USE_ANGLE
             flags = GraphicsContextFlags.Embedded;
 #endif
